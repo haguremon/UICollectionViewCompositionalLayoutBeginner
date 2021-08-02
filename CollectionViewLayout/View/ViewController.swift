@@ -33,16 +33,30 @@ class ViewController: UIViewController {
 extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
    
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 1
+        return 2
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 4
+        switch section {
+        case 0:
+            return 3
+        case 1:
+            return 8
+        default:
+            return 0
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell
-        cell.backgroundColor = .blue
-        return cell
+        switch indexPath.row {
+        case 0:
+            cell.label.text = "w"
+            return cell
+        case 1:
+            return cell
+        default:
+            return cell
+        }
     }
 
 

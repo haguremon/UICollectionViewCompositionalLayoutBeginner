@@ -10,22 +10,46 @@ import UIKit
 class CollectionViewLayout {
     
     func createLayout() -> UICollectionViewLayout {
-        return UICollectionViewCompositionalLayout { sectionIndex, layoutEnvironment -> NSCollectionLayoutSection? in
+        let layout = UICollectionViewCompositionalLayout { sectionIndex, layoutEnvironment -> NSCollectionLayoutSection? in
+        if sectionIndex == 0 {
             let item = NSCollectionLayoutItem(layoutSize: .init(
-                                                widthDimension: .fractionalWidth(1),
-                                                heightDimension: .fractionalHeight(1)))
-            item.contentInsets.trailing = 16 //右からの間
+                                                widthDimension: .fractionalWidth(1), //100%
+                                                heightDimension: .fractionalHeight(1)))//100%
+            //ここでセルの間をあける
+            item.contentInsets.leading = 3
+            item.contentInsets.trailing = 3 //右からの間
             item.contentInsets.bottom = 19 //itemのボトムの間
+            //グループを作成
             let group = NSCollectionLayoutGroup.horizontal(layoutSize: .init(
                                                             widthDimension: .fractionalWidth(1),
-                                                            heightDimension: .absolute(300)), //300の高さのグループ
+                                                            heightDimension: .absolute(200)), //300の高さのグループ
                                                            subitem: item,
                                                            count: 1)
             
             let section = NSCollectionLayoutSection(group: group)
-            section.orthogonalScrollingBehavior = .continuous
+            section.orthogonalScrollingBehavior = .paging
             return section
         }
-        
+            else {
+                //itemのサイズ
+                let item = NSCollectionLayoutItem(layoutSize: .init(
+                                                    widthDimension: .fractionalWidth(0.25), //アイテムの幅を25％
+                                                    heightDimension: .absolute(150)))//100%
+                //ここでセルの間をあける
+                //item.contentInsets.leading = 3
+                item.contentInsets.trailing = 3 //右からの間
+                item.contentInsets.bottom = 15 //itemのボトムの間
+                //グループを作成
+                let group = NSCollectionLayoutGroup.horizontal(layoutSize: .init(widthDimension: .fractionalWidth(1), heightDimension: .estimated(500)), subitems: [item])//koko注意horizontal注意とかの引数
+                
+                let section = NSCollectionLayoutSection(group: group)
+                item.contentInsets.leading = 3
+                section.supplementariesFollowContentInsets = false
+                //section.orthogonalScrollingBehavior = .paging
+                return section
+    
+            }
+        }
+    return layout
     }
 }
