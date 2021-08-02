@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CF9DCED626B836A7003FC1B2 /* CollectionViewLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9DCED626B836A7003FC1B2 /* UICollectionViewCompositionalLayoutBeginner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewCompositionalLayoutBeginner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9DCED926B836A7003FC1B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF9DCEDB26B836A7003FC1B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CF9DCEDD26B836A7003FC1B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		CF9DCED726B836A7003FC1B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF9DCED626B836A7003FC1B2 /* CollectionViewLayout.app */,
+				CF9DCED626B836A7003FC1B2 /* UICollectionViewCompositionalLayoutBeginner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF9DCED526B836A7003FC1B2 /* CollectionViewLayout */ = {
+		CF9DCED526B836A7003FC1B2 /* UICollectionViewCompositionalLayoutBeginner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF9DCEEA26B836A9003FC1B2 /* Build configuration list for PBXNativeTarget "CollectionViewLayout" */;
+			buildConfigurationList = CF9DCEEA26B836A9003FC1B2 /* Build configuration list for PBXNativeTarget "UICollectionViewCompositionalLayoutBeginner" */;
 			buildPhases = (
 				CF9DCED226B836A7003FC1B2 /* Sources */,
 				CF9DCED326B836A7003FC1B2 /* Frameworks */,
@@ -99,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = CollectionViewLayout;
+			name = UICollectionViewCompositionalLayoutBeginner;
 			productName = CollectionViewLayout;
-			productReference = CF9DCED626B836A7003FC1B2 /* CollectionViewLayout.app */;
+			productReference = CF9DCED626B836A7003FC1B2 /* UICollectionViewCompositionalLayoutBeginner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CF9DCED126B836A7003FC1B2 /* Build configuration list for PBXProject "CollectionViewLayout" */;
+			buildConfigurationList = CF9DCED126B836A7003FC1B2 /* Build configuration list for PBXProject "UICollectionViewCompositionalLayoutBeginner" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -131,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF9DCED526B836A7003FC1B2 /* CollectionViewLayout */,
+				CF9DCED526B836A7003FC1B2 /* UICollectionViewCompositionalLayoutBeginner */,
 			);
 		};
 /* End PBXProject section */
@@ -342,7 +342,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CF9DCED126B836A7003FC1B2 /* Build configuration list for PBXProject "CollectionViewLayout" */ = {
+		CF9DCED126B836A7003FC1B2 /* Build configuration list for PBXProject "UICollectionViewCompositionalLayoutBeginner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF9DCEE826B836A9003FC1B2 /* Debug */,
@@ -351,7 +351,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF9DCEEA26B836A9003FC1B2 /* Build configuration list for PBXNativeTarget "CollectionViewLayout" */ = {
+		CF9DCEEA26B836A9003FC1B2 /* Build configuration list for PBXNativeTarget "UICollectionViewCompositionalLayoutBeginner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF9DCEEB26B836A9003FC1B2 /* Debug */,
