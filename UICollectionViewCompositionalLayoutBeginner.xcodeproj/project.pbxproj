@@ -65,7 +65,6 @@
 				CF9DCED926B836A7003FC1B2 /* AppDelegate.swift */,
 				CF9DCEDB26B836A7003FC1B2 /* SceneDelegate.swift */,
 				CF9DCEEF26B83786003FC1B2 /* View */,
-				CF9DCEDF26B836A7003FC1B2 /* Main.storyboard */,
 				CF9DCEE226B836A9003FC1B2 /* Assets.xcassets */,
 				CF9DCEE426B836A9003FC1B2 /* LaunchScreen.storyboard */,
 				CF9DCEE726B836A9003FC1B2 /* Info.plist */,
@@ -77,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				CF9DCEDD26B836A7003FC1B2 /* ViewController.swift */,
+				CF9DCEDF26B836A7003FC1B2 /* Main.storyboard */,
 				CF9DCEED26B83745003FC1B2 /* CollectionViewLayou.swift */,
 				CF9DCEF026B837AF003FC1B2 /* CollectionViewCell.swift */,
 				CF9DCEF126B837AF003FC1B2 /* CollectionViewCell.xib */,

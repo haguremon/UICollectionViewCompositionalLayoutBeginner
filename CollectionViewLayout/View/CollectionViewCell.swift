@@ -11,9 +11,9 @@ class CollectionViewCell: UICollectionViewCell {
     
     var label: UILabel = {
          let label = UILabel()
-         label.textColor = .white
-        label.font = .boldSystemFont(ofSize: 33)
-        label.backgroundColor = .systemGray
+        label.textColor = .white
+        label.font = .boldSystemFont(ofSize: 20)
+        label.backgroundColor = .black
         label.clipsToBounds = true //cellからはみ出さないようにする
          return label
      }()
