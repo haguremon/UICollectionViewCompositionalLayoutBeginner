@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CF9DCED626B836A7003FC1B2 /* UICollectionViewCompositionalLayoutBeginner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewCompositionalLayoutBeginner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9DCED626B836A7003FC1B2 /* UICollectionViewCompositionalLayoutUbereats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewCompositionalLayoutUbereats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9DCED926B836A7003FC1B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF9DCEDB26B836A7003FC1B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CF9DCEDD26B836A7003FC1B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		CF9DCED726B836A7003FC1B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF9DCED626B836A7003FC1B2 /* UICollectionViewCompositionalLayoutBeginner.app */,
+				CF9DCED626B836A7003FC1B2 /* UICollectionViewCompositionalLayoutUbereats.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF9DCED526B836A7003FC1B2 /* UICollectionViewCompositionalLayoutBeginner */ = {
+		CF9DCED526B836A7003FC1B2 /* UICollectionViewCompositionalLayoutUbereats */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF9DCEEA26B836A9003FC1B2 /* Build configuration list for PBXNativeTarget "UICollectionViewCompositionalLayoutBeginner" */;
+			buildConfigurationList = CF9DCEEA26B836A9003FC1B2 /* Build configuration list for PBXNativeTarget "UICollectionViewCompositionalLayoutUbereats" */;
 			buildPhases = (
 				CF9DCED226B836A7003FC1B2 /* Sources */,
 				CF9DCED326B836A7003FC1B2 /* Frameworks */,
@@ -99,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = UICollectionViewCompositionalLayoutBeginner;
+			name = UICollectionViewCompositionalLayoutUbereats;
 			productName = CollectionViewLayout;
-			productReference = CF9DCED626B836A7003FC1B2 /* UICollectionViewCompositionalLayoutBeginner.app */;
+			productReference = CF9DCED626B836A7003FC1B2 /* UICollectionViewCompositionalLayoutUbereats.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CF9DCED126B836A7003FC1B2 /* Build configuration list for PBXProject "UICollectionViewCompositionalLayoutBeginner" */;
+			buildConfigurationList = CF9DCED126B836A7003FC1B2 /* Build configuration list for PBXProject "UICollectionViewCompositionalLayoutUbereats" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -131,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF9DCED526B836A7003FC1B2 /* UICollectionViewCompositionalLayoutBeginner */,
+				CF9DCED526B836A7003FC1B2 /* UICollectionViewCompositionalLayoutUbereats */,
 			);
 		};
 /* End PBXProject section */
@@ -342,7 +342,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CF9DCED126B836A7003FC1B2 /* Build configuration list for PBXProject "UICollectionViewCompositionalLayoutBeginner" */ = {
+		CF9DCED126B836A7003FC1B2 /* Build configuration list for PBXProject "UICollectionViewCompositionalLayoutUbereats" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF9DCEE826B836A9003FC1B2 /* Debug */,
@@ -351,7 +351,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF9DCEEA26B836A9003FC1B2 /* Build configuration list for PBXNativeTarget "UICollectionViewCompositionalLayoutBeginner" */ = {
+		CF9DCEEA26B836A9003FC1B2 /* Build configuration list for PBXNativeTarget "UICollectionViewCompositionalLayoutUbereats" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF9DCEEB26B836A9003FC1B2 /* Debug */,

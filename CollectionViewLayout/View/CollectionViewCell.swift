@@ -14,6 +14,7 @@ class CollectionViewCell: UICollectionViewCell {
         label.textColor = .white
         label.font = .boldSystemFont(ofSize: 20)
         label.backgroundColor = .black
+        label.translatesAutoresizingMaskIntoConstraints = true
         label.clipsToBounds = true //cellからはみ出さないようにする
          return label
      }()
